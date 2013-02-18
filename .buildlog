@@ -1,0 +1,16 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/test.html","to":"web/out/test.html"}}]
+Total time spent on web/test.html                            -- 167 ms
+build.dart finished [335 ms]
+
+---
+build.dart --machine --changed=web/out/test.dart --changed=web/out/test.html --changed=web/out/test.html_bootst...
+
+build.dart finished [280 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [314 ms]
+
